@@ -8,4 +8,4 @@ cd tm-setup-scripts
 ./install.sh
 ```
 
-If there's other packages you needed to install that you think would be useful for others, please make a PR to add them!
+If there's other packages you needed to install that you think would be useful for others, please make a PR to add them! If the package is only likely to be used on one repository/codebase (e.g `fastlane` for Native App), add it to the native app repository's Brewfile instead.
